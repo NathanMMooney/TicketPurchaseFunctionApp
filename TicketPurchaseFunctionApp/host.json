@@ -7,8 +7,8 @@
     },
     "logging": {
         "logLevel": {
-            "default": "Trace",
-            "Function": "Trace"
+            "default": "none",
+            "Function": "none"
         },
         "applicationInsights": {
             "samplingSettings": {
