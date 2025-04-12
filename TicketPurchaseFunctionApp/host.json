@@ -1,0 +1,21 @@
+{
+    "version": "2.0",
+    "extensions": {
+        "queues": {
+            "messageEncoding": "none"
+        }
+    },
+    "logging": {
+        "logLevel": {
+            "default": "Trace",
+            "Function": "Trace"
+        },
+        "applicationInsights": {
+            "samplingSettings": {
+                "isEnabled": true,
+                "excludedTypes": "Request"
+            },
+            "enableLiveMetricsFilters": true
+        }
+    }
+}
